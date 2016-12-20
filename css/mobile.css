@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+html, head, body {
+  margin: 0 auto;
+  height: 100vh;
+  font-family: Roboto;
+  background: url(https://i.imgsafe.org/43e2106cea.png);
+}
+
+nav {
+  background: black;
+  width: 250px;
+  float: right;
+  height: 100vh;
+  margin-right: -500px;
+  display: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav li {
+  font-size: 25px;
+  margin: 25px 0;
+}
+
+.toggle {
+  width: 35px;
+  height: 35px;
+  margin-bottom: -40px;
+  float: right;
+  margin-top: 5px;
+}
+
+.close {
+  width: 35px;
+  height: 35px;
+  float: right;
+  margin-top: 5px;
+}
+
+.main-div {
+  height: 100vh;
+  color: white;
+}
+
+.main-div .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  background: url(http://static.simpledesktops.com/uploads/desktops/2014/05/16/Pixelmoon_by_ArMaNDJ.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-div .button {
+  border: 3px solid black;
+  padding: 0 15px;
+  font-size: 20px;
+  transition: .2s all ease-in-out;
+  color: white;
+}
+
+.main-div .button:hover {
+  background: black;
+  color: white;
+}
+
+.main-div .button a {
+  text-decoration: none;
+  color: white;
+}
+
+.page {
+  background: url(https://i.imgsafe.org/43e2106cea.png);
+  margin-top: -25px;
+  color: white;
+}
+
+.page .products-title {
+  text-align: center;
+}
+
+.page .products-list li {
+  display: block;
+}
+
+.page .products-list img {
+  width: 250px;
+  height: 250px;
+}
+
+.location {
+  width: 100%;
+}
+
+.location h1 {
+  text-align: center;
+}
+
+.location img {
+  width: 400px;
+  height: 250px;
+}
+
+footer {
+  color: white;
+}
+
+.open {
+  margin-right: 0;
+  display: block;
+}
+
+.none {
+  display: none;
+}

@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+html, head, body {
+  height: 100vh;
+  margin: 0 auto;
+  font-family: Roboto;
+  background-color: #201E1E;
+}
+
+.nav {
+  text-align: right;
+  background: black;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: right;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav a:hover {
+  border-bottom: 2px solid white;
+}
+
+.nav li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.main-div {
+  height: 100vh;
+  color: white;
+}
+
+.main-div .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  background: url(http://static.simpledesktops.com/uploads/desktops/2014/05/16/Pixelmoon_by_ArMaNDJ.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.main-div .button {
+  border: 3px solid black;
+  padding: 0 15px;
+  font-size: 20px;
+  transition: .2s all ease-in-out;
+}
+
+.main-div .button a {
+  text-decoration: none;
+  color: white;
+}
+
+.main-div .button:hover {
+  background: black;
+  color: white;
+}
+
+.page {
+  background: url(https://i.imgsafe.org/43e2106cea.png);
+}
+
+.products {
+  width: 100vw;
+}
+
+.products-title {
+  text-align: center;
+  color: white;
+}
+
+.product-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.product-list li {
+  list-style-type: none;
+  display: inline-flex;
+  flex-direction: columnn;
+  justify-content: center;
+  margin: 5px;
+}
+
+.product-list li h1 {
+  position: absolute;
+  z-index: 99;
+  margin-top: -5px;
+}
+
+.product-list li img {
+  width: 250px;
+  height: 250px;
+}
+
+.location {
+  width: 100vw;
+  text-align: center;
+}
+
+.location .img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+footer {
+  background-color: #272525;
+  color: white;
+  height: 100px;
+  align-items: center;
+  text-align: right;
+  margin-right: 5px;
+  margin-top: 20px;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+footer .copy {
+  text-align: right;
+}
